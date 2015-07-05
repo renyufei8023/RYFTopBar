@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSArray *viewControllers;
+
+- (id)initWithViewControllers:(NSArray *)viewControllers;
 
 @end
 

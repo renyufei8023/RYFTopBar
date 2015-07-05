@@ -7,6 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
+#import "FifthViewController.h"
+#import "SixViewController.h"
+#import "SevenViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +24,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    FirstViewController *firstController   = [[FirstViewController alloc] init];
+    firstController.title                  = @"First";
+    SecondViewController *secondController = [[SecondViewController alloc] init];
+    secondController.title                 = @"Second";
+    ThirdViewController *thirdController   = [[ThirdViewController alloc] init];
+    thirdController.title                  = @"Third";
+    FourthViewController *fourthController = [[FourthViewController alloc] init];
+    fourthController.title                 = @"Fourth";
+    FifthViewController *fifthController   = [[FifthViewController alloc] init];
+    fifthController.title                  = @"Fifth";
+    SixViewController *sixController       = [[SixViewController alloc] init];
+    sixController.title                    = @"Six";
+    SevenViewController *sevenController   = [[SevenViewController alloc] init];
+    sevenController.title                  = @"第7标题...";
+
+    ViewController *viewController = [[ViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+    viewController.viewControllers          = @[firstController, secondController, thirdController, fourthController, fifthController, sixController, sevenController];
+    
+    self.window.rootViewController = nav;
+    self.window.backgroundColor    = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
     // Override point for customization after application launch.
     return YES;
 }

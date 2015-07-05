@@ -14,6 +14,14 @@
 		A3FEBE3D1B48D7C4004AE3E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FEBE3C1B48D7C4004AE3E1 /* Images.xcassets */; };
 		A3FEBE401B48D7C4004AE3E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FEBE3E1B48D7C4004AE3E1 /* LaunchScreen.xib */; };
 		A3FEBE4C1B48D7C4004AE3E1 /* RYFTopBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE4B1B48D7C4004AE3E1 /* RYFTopBarDemoTests.m */; };
+		A3FEBE581B48D93C004AE3E1 /* RYFTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE571B48D93C004AE3E1 /* RYFTopBar.m */; };
+		A3FEBE5C1B48EA2A004AE3E1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE5B1B48EA2A004AE3E1 /* FirstViewController.m */; };
+		A3FEBE5F1B48EA48004AE3E1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE5E1B48EA48004AE3E1 /* SecondViewController.m */; };
+		A3FEBE621B48EA52004AE3E1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE611B48EA52004AE3E1 /* ThirdViewController.m */; };
+		A3FEBE651B48EA61004AE3E1 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE641B48EA61004AE3E1 /* FourthViewController.m */; };
+		A3FEBE681B48EA7C004AE3E1 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE671B48EA7C004AE3E1 /* FifthViewController.m */; };
+		A3FEBE6B1B48EA86004AE3E1 /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE6A1B48EA86004AE3E1 /* SixViewController.m */; };
+		A3FEBE6E1B48EA90004AE3E1 /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEBE6D1B48EA90004AE3E1 /* SevenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,22 @@
 		A3FEBE451B48D7C4004AE3E1 /* RYFTopBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYFTopBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FEBE4A1B48D7C4004AE3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3FEBE4B1B48D7C4004AE3E1 /* RYFTopBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYFTopBarDemoTests.m; sourceTree = "<group>"; };
+		A3FEBE561B48D93C004AE3E1 /* RYFTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFTopBar.h; sourceTree = "<group>"; };
+		A3FEBE571B48D93C004AE3E1 /* RYFTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFTopBar.m; sourceTree = "<group>"; };
+		A3FEBE5A1B48EA2A004AE3E1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A3FEBE5B1B48EA2A004AE3E1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A3FEBE5D1B48EA48004AE3E1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A3FEBE5E1B48EA48004AE3E1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A3FEBE601B48EA52004AE3E1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A3FEBE611B48EA52004AE3E1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A3FEBE631B48EA61004AE3E1 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		A3FEBE641B48EA61004AE3E1 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		A3FEBE661B48EA7C004AE3E1 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		A3FEBE671B48EA7C004AE3E1 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		A3FEBE691B48EA86004AE3E1 /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		A3FEBE6A1B48EA86004AE3E1 /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
+		A3FEBE6C1B48EA90004AE3E1 /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		A3FEBE6D1B48EA90004AE3E1 /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,8 @@
 		A3FEBE2E1B48D7C4004AE3E1 /* RYFTopBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A3FEBE591B48E193004AE3E1 /* ViewController */,
+				A3FEBE551B48D842004AE3E1 /* RYFTopBar */,
 				A3FEBE331B48D7C4004AE3E1 /* AppDelegate.h */,
 				A3FEBE341B48D7C4004AE3E1 /* AppDelegate.m */,
 				A3FEBE361B48D7C4004AE3E1 /* ViewController.h */,
@@ -89,6 +115,20 @@
 				A3FEBE3C1B48D7C4004AE3E1 /* Images.xcassets */,
 				A3FEBE3E1B48D7C4004AE3E1 /* LaunchScreen.xib */,
 				A3FEBE2F1B48D7C4004AE3E1 /* Supporting Files */,
+				A3FEBE5A1B48EA2A004AE3E1 /* FirstViewController.h */,
+				A3FEBE5B1B48EA2A004AE3E1 /* FirstViewController.m */,
+				A3FEBE5D1B48EA48004AE3E1 /* SecondViewController.h */,
+				A3FEBE5E1B48EA48004AE3E1 /* SecondViewController.m */,
+				A3FEBE601B48EA52004AE3E1 /* ThirdViewController.h */,
+				A3FEBE611B48EA52004AE3E1 /* ThirdViewController.m */,
+				A3FEBE661B48EA7C004AE3E1 /* FifthViewController.h */,
+				A3FEBE671B48EA7C004AE3E1 /* FifthViewController.m */,
+				A3FEBE691B48EA86004AE3E1 /* SixViewController.h */,
+				A3FEBE6A1B48EA86004AE3E1 /* SixViewController.m */,
+				A3FEBE6C1B48EA90004AE3E1 /* SevenViewController.h */,
+				A3FEBE6D1B48EA90004AE3E1 /* SevenViewController.m */,
+				A3FEBE631B48EA61004AE3E1 /* FourthViewController.h */,
+				A3FEBE641B48EA61004AE3E1 /* FourthViewController.m */,
 			);
 			path = RYFTopBarDemo;
 			sourceTree = "<group>";
@@ -117,6 +157,22 @@
 				A3FEBE4A1B48D7C4004AE3E1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3FEBE551B48D842004AE3E1 /* RYFTopBar */ = {
+			isa = PBXGroup;
+			children = (
+				A3FEBE561B48D93C004AE3E1 /* RYFTopBar.h */,
+				A3FEBE571B48D93C004AE3E1 /* RYFTopBar.m */,
+			);
+			name = RYFTopBar;
+			sourceTree = "<group>";
+		};
+		A3FEBE591B48E193004AE3E1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +224,7 @@
 				TargetAttributes = {
 					A3FEBE2B1B48D7C4004AE3E1 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 779273TU25;
 					};
 					A3FEBE441B48D7C4004AE3E1 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -219,9 +276,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FEBE681B48EA7C004AE3E1 /* FifthViewController.m in Sources */,
+				A3FEBE651B48EA61004AE3E1 /* FourthViewController.m in Sources */,
+				A3FEBE5F1B48EA48004AE3E1 /* SecondViewController.m in Sources */,
+				A3FEBE6E1B48EA90004AE3E1 /* SevenViewController.m in Sources */,
 				A3FEBE381B48D7C4004AE3E1 /* ViewController.m in Sources */,
 				A3FEBE351B48D7C4004AE3E1 /* AppDelegate.m in Sources */,
+				A3FEBE5C1B48EA2A004AE3E1 /* FirstViewController.m in Sources */,
 				A3FEBE321B48D7C4004AE3E1 /* main.m in Sources */,
+				A3FEBE581B48D93C004AE3E1 /* RYFTopBar.m in Sources */,
+				A3FEBE621B48EA52004AE3E1 /* ThirdViewController.m in Sources */,
+				A3FEBE6B1B48EA86004AE3E1 /* SixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RYFTopBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RYFTopBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +483,7 @@
 				A3FEBE511B48D7C4004AE3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3FEBE521B48D7C4004AE3E1 /* Build configuration list for PBXNativeTarget "RYFTopBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +492,7 @@
 				A3FEBE541B48D7C4004AE3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
